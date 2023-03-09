@@ -39,3 +39,4 @@ require("lazy").setup(
 
 [ ] Finish readme \
 [ ] Add creating user command in setup
+[ ] Add vim docs
