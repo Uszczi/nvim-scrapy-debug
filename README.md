@@ -1,5 +1,7 @@
 # Nvim-scrapy-debug
 
+# STILL UNDER DEVELOPMENT
+
 It's a small neovim plugin allowing debug and run Scrapy spider under the cursor.
 
 ## How it works
