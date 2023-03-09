@@ -33,10 +33,26 @@ require("lazy").setup(
 )
 ```
 
-## API
+## Usage
+
+Call setup method to register `ScrapyDebug` command.
+
+```
+require("nvim-scrapy-debug").setup()
+
+```
+
+```
+require("nvim-scrapy-debug").debug()
+
+-- or create a keymap
+
+vim.keymap.set("n", "<leader>dy", ":lua require('nvim-scrapy-debug').debug()<CR>", {silent = true})
+```
 
 ## TODO
 
-[ ] Finish readme \
-[ ] Add creating user command in setup
-[ ] Add vim docs
+[ ] Add creating user command in setup \
+[ ] Add vim docs \
+[ ] Add creating ouput to specific file \
+[ ] Finish readme
