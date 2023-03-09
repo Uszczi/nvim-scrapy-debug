@@ -10,5 +10,5 @@ It's a small neovim plugin allowing debug and run Scrapy spider under the cursor
 
 ## TODO
 
-[ ] Finish readme
+[ ] Finish readme \
 [ ] Add creating user command in setup
