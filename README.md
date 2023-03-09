@@ -39,11 +39,10 @@ Call setup method to register `ScrapyDebug` command.
 
 ```
 require("nvim-scrapy-debug").setup()
-
 ```
 
 ```
-require("nvim-scrapy-debug").debug()
+:lua require("nvim-scrapy-debug").debug()
 
 -- or create a keymap
 
